@@ -1,0 +1,14 @@
+C:\Users\jerem\Desktop\docker\csharpe\App\bin\Debug\net7.0\DotNet.Docker.exe
+C:\Users\jerem\Desktop\docker\csharpe\App\bin\Debug\net7.0\DotNet.Docker.deps.json
+C:\Users\jerem\Desktop\docker\csharpe\App\bin\Debug\net7.0\DotNet.Docker.runtimeconfig.json
+C:\Users\jerem\Desktop\docker\csharpe\App\bin\Debug\net7.0\DotNet.Docker.dll
+C:\Users\jerem\Desktop\docker\csharpe\App\bin\Debug\net7.0\DotNet.Docker.pdb
+C:\Users\jerem\Desktop\docker\csharpe\App\obj\Debug\net7.0\DotNet.Docker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\docker\csharpe\App\obj\Debug\net7.0\DotNet.Docker.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\docker\csharpe\App\obj\Debug\net7.0\DotNet.Docker.AssemblyInfo.cs
+C:\Users\jerem\Desktop\docker\csharpe\App\obj\Debug\net7.0\DotNet.Docker.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\docker\csharpe\App\obj\Debug\net7.0\DotNet.Docker.dll
+C:\Users\jerem\Desktop\docker\csharpe\App\obj\Debug\net7.0\refint\DotNet.Docker.dll
+C:\Users\jerem\Desktop\docker\csharpe\App\obj\Debug\net7.0\DotNet.Docker.pdb
+C:\Users\jerem\Desktop\docker\csharpe\App\obj\Debug\net7.0\DotNet.Docker.genruntimeconfig.cache
+C:\Users\jerem\Desktop\docker\csharpe\App\obj\Debug\net7.0\ref\DotNet.Docker.dll

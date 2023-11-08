@@ -1,0 +1,39 @@
+    1  dotnet new console -o App -n DotNet.Docker
+    //La commande dotnet new crée un dossier nommé App et génère une application de console « Hello World »La commande dotnet new crée un dossier nommé App et génère une application de console « Hello World »
+    2  cd App/
+    3  dotnet run
+    6  dotnet run -- 5
+    7  dotnet publish -c Release
+    //Cette commande compile votre application dans le dossier publish. Le chemin du dossier publish à partir du dossier de travail doit être .\App\bin\Release\net7.0\publish\
+    8  history>histo.txt
+    9  dotnet --version
+   10  docker build -t counter-image -f Dockerfile .
+   //Docker traitera chaque ligne du Dockerfile. . dans la commande docker build définit le contexte de build de l’image. Le commutateur -f est le chemin d’accès au fichier Dockerfile. Cette commande génère l’image et crée un référentiel local nommé counter-image qui pointe vers cette image. Une fois cette commande terminée, exécutez docker images pour afficher une liste des images installées
+   12  docker images
+   13  docker ps
+   14  docker images 
+   15  docker create --name core-counter counter-image
+   //Cette commande docker create crée un conteneur basé sur l’image counter-image. Le résultat de cette commande affiche la valeur CONTAINER ID (la vôtre sera différente) du conteneur créé 
+   16  docker ps -a
+   17  docker start core-counter
+   18  docker ps -a
+   19  docker stop core-counter
+   20  docker start core-counter
+   21  docker attach
+   22  docker attach --sig-proxy=false core-counter
+   //Lorsqu’un conteneur est en cours d’exécution, vous pouvez vous connecter à ce dernier pour afficher le résultat. Utilisez les commandes docker start et docker attach pour démarrer le conteneur et observer le flux de sortie. Dans cet exemple, les touches CTRL + C permettent de se déconnecter du conteneur en cours d’exécution. Sauf indication contraire, cette séquence de touches met fin au processus dans le conteneur, ce qui arrête le conteneur. Le paramètre --sig-proxy=false garantit que la séquence de touches CTRL + C n’arrêtera pas le processus dans le conteneur.
+   23  docker attach --sig-proxy=false core-counter
+   24  docker stop core-counter
+   25  docker ps -a
+   26  docker rm core-counter
+   27  docker ps -a
+   28  docker run -it --rm counter-image
+   //efface le conteneur a la combinaison de touche ctrl C
+   29  docker run -it --rm counter-image 3
+   //efface le conteneur dna sl'exemple à 3
+   30  docker ps -a
+   31  docker ps -a
+   32  docker rmi counter-image:latest
+   33  docker rmi mcr.microsoft.com/dotnet/aspnet:7.0
+   34  docker images
+   35  history>histo.txt
